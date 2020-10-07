@@ -113,12 +113,14 @@ header p{
 .about, .method, .clients, .contact{
   /*Your Code Here*/
   grid-column: 2 / auto;
+  overflow: hidden;
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
   /*Your Code Here*/
   grid-column: 1 / -1;
   max-height: 700px;
+  overflow: hidden;
 }
 
 .about, .about-image{
@@ -170,11 +172,13 @@ background-color: rgba(255, 255, 255, .8);
   .about, .clients, .method-image, .contact-image{
     /*Your code here:*/
     grid-column: 3 / 5;
+    overflow: hidden;
   }
 
   .about-image, .clients-image, .method, .contact{
     /*Your code here:*/
     grid-column: 2 / 4;
+    overflow: hidden;
   }
 }
 
